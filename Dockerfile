@@ -1,4 +1,4 @@
 #Docker File
-FROM openjkdk:8
+FROM openjkdk
 ADD /var/lib/jenkins/workspace/Qoentum-Dev/target/qoentum.war qoentum.war
 EXPOSE 80
